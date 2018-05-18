@@ -9,6 +9,7 @@ import org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles;
 
 /**
  * mr生成Hfile之后，将文件导入Hbase即可
+ *
  */
 public class LoadIncrementalHFileToHBase {
     public static void main(String[] args) throws Exception {
