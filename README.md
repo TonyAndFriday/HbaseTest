@@ -1,2 +1,4 @@
 # HbaseTest
-hbaseBulkLoad导入数据以及1.0API
+1. hbaseBulkLoad导入数据
+2. 1.0API
+3. coprocessor实现聚合函数
