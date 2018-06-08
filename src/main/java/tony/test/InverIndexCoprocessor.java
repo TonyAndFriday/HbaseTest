@@ -15,6 +15,8 @@ import java.io.IOException;
 
 /**
  * 利用coprocesser维护二级索引
+ *
+ * alter 'fensi',METHOD=>'table_att','coprocessor'=>'hdfs://cdh120:8020/hbasecp/cpp.jar|tony.test.InverIndexCoprocessor|1001|'
  */
 
 public class InverIndexCoprocessor extends BaseRegionObserver {
